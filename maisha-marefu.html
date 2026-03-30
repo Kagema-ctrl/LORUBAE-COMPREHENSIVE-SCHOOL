@@ -59,177 +59,257 @@
     </div>
   </nav>
 
-  <!-- Section A: Hero -->
-  <section class="maisha-hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h1 class="hero-title">Maisha Marefu</h1>
-      <p class="hero-tagline">Turning Dependency into Dignity</p>
-      <a href="https://www.maisha-marefu.org" class="cta-button cta-primary" target="_blank" rel="noopener noreferrer">Visit Maisha Marefu</a>
+  <!-- MAIN CONTENT START -->
+
+  <!-- SECTION A: HERO -->
+  <section class="mm-hero">
+    <img src="assets/images/maisha-marefu/hero.jpg"
+         alt="Maisha Marefu community work"
+         style="position:absolute;inset:0;width:100%;height:100%;
+                object-fit:cover;z-index:0;"
+         loading="eager">
+    <div style="position:absolute;inset:0;background:rgba(8,32,48,0.72);z-index:1;"></div>
+    <div style="position:relative;z-index:2;text-align:center;">
+      <h1 style="font-family:'Playfair Display', serif;font-weight:700;font-size:56px;color:white;margin:0 0 20px 0;">Maisha Marefu</h1>
+      <p class="mm-tagline" style="font-family:'Playfair Display', serif;font-style:italic;font-size:26px;color:white;margin:0 0 16px 0;">Turning Dependency into Dignity</p>
+      <p class="mm-sub" style="font-family:Nunito,sans-serif;font-size:18px;color:#00BCD4;margin:0 0 32px 0;">Lorubae's Biggest Supporter — Building the Future of Samburu East</p>
+      <a href="https://www.maisha-marefu.org"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn-outlined-teal"
+         style="display:inline-block;border:2px solid #00BCD4;color:#00BCD4;padding:14px 32px;
+                border-radius:4px;font-family:Nunito,sans-serif;font-weight:600;text-decoration:none;
+                transition:all 0.25s ease;">
+      Visit Maisha Marefu →</a>
     </div>
   </section>
 
-  <!-- Section B: Program Introduction -->
-  <section class="program-intro">
-    <div class="container">
-      <div class="intro-grid">
-        <div class="intro-text">
-          <h2>Who They Are</h2>
-          <p>Maisha Marefu was founded in 2022 by <strong>Louise Soubrier</strong> and <strong>Sergio Caldeira</strong>, visionary leaders committed to transforming lives in East Africa. Their mission centers on creating sustainable pathways out of poverty through regenerative agriculture, food security, and community empowerment.</p>
-          <p>Built on the principle that every individual deserves dignity and opportunity, Maisha Marefu works hand-in-hand with communities to build resilience, create livelihoods, and foster sustainable development from the ground up.</p>
-          <blockquote class="intro-quote">
-            <p>"The greatest gift is not what we give, but what we enable others to create for themselves."</p>
-            <footer>— Maisha Marefu Foundation</footer>
-          </blockquote>
-        </div>
-        <div class="intro-visual">
-          <div class="intro-card">
-            <h3>Founded</h3>
-            <p class="highlight-year">2022</p>
-          </div>
-          <div class="intro-card">
-            <h3>Founders</h3>
-            <p>Louise Soubrier<br>Sergio Caldeira</p>
-          </div>
-          <div class="intro-card">
-            <h3>Focus</h3>
-            <p>East Africa<br>Community Impact</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <style>
+    .mm-hero {
+      background-color: #0D3B52;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .btn-outlined-teal:hover {
+      background-color: #00BCD4;
+      color: white;
+    }
+  </style>
 
-  <!-- Section C: Four Pillars -->
-  <section class="four-pillars">
-    <div class="container">
-      <h2>Four Core Pillars</h2>
-      <p class="section-subtitle">Our multifaceted approach to sustainable community development</p>
-      <div class="pillars-grid">
-        <div class="pillar-card">
-          <div class="pillar-icon">🌱</div>
-          <h3>Regenerative Agriculture</h3>
-          <p>Building soil health and environmental resilience through sustainable farming practices that restore ecosystems while producing nutritious food for communities.</p>
+  <!-- SECTION B: INTRODUCTION -->
+  <section class="mm-intro" style="background:#FFFFFF;padding:80px 40px;">
+    <div class="container" style="max-width:1200px;margin:0 auto;">
+      <div style="display:flex;flex-direction:row;gap:60px;align-items:flex-start;">
+        <!-- Left column -->
+        <div style="flex:1.5;border-left:4px solid #00BCD4;padding-left:32px;">
+          <h2 style="font-family:'Playfair Display',serif;font-size:36px;color:#082030;margin:0 0 24px 0;font-weight:700;">Who They Are</h2>
+          <p style="font-family:Nunito,sans-serif;font-size:18px;color:#0A0A0A;line-height:1.8;margin:0 0 24px 0;">
+            Founded in 2022 by Louise Soubrier and Sergio Caldeira, Maisha Marefu is a non-profit operating at the intersection of social impact, local economic empowerment, and regenerative agriculture in Kenya. Their work develops locally rooted systems that address food security, land degradation, and income generation — with a strong focus on women's and youth leadership. Their guiding philosophy is simple and powerful: they work with communities, not for them.
+          </p>
+          <div style="background:#0D3B52;padding:24px 28px;border-radius:6px;margin-top:32px;">
+            <p style="font-family:Lora,serif;font-style:italic;color:white;font-size:19px;line-height:1.7;margin:0;">
+              "Maisha Marefu co-builds community systems rooted in local leadership and trust."
+            </p>
+          </div>
         </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">🥗</div>
-          <h3>Food Security</h3>
-          <p>Ensuring families have consistent access to nutritious, locally-grown food. Programs address malnutrition and dietary diversity while reducing dependence on imported goods.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">💼</div>
-          <h3>Sustainable Livelihoods</h3>
-          <p>Creating economic opportunities through training, skills development, and market access. Empowering individuals to generate stable income and build financial independence.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">👩‍💼</div>
-          <h3>Women's Entrepreneurship</h3>
-          <p>Prioritizing women's leadership and business creation. Providing mentorship, capital access, and networks to unlock entrepreneurial potential and drive community-wide prosperity.</p>
+        <!-- Right column -->
+        <div style="flex:1;">
+          <img src="assets/images/maisha-marefu/team.jpg"
+               alt="Maisha Marefu team working with the Lorubae community"
+               loading="lazy"
+               style="width:100%;border-radius:8px;display:block;">
+          <!-- PLACEHOLDER: Replace team.jpg with actual Maisha Marefu team photo -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section D: How They Work -->
-  <section class="methodology">
-    <div class="container">
-      <h2>How We Work</h2>
-      <p class="section-subtitle">Our proven five-step methodology for lasting impact</p>
-      <div class="methodology-timeline">
-        <div class="timeline-step">
-          <div class="step-number">1</div>
-          <div class="step-content">
-            <h3>Community Assessment</h3>
-            <p>Deep engagement with local communities to understand needs, assets, and existing knowledge. We listen, learn, and build trust before implementing any program.</p>
+  <!-- SECTION C: FOUR PILLARS -->
+  <section class="mm-pillars" style="background:#F8F8F6;padding:80px 40px;">
+    <div class="container" style="max-width:1200px;margin:0 auto;">
+      <h2 style="font-family:'Playfair Display',serif;font-size:36px;color:#082030;text-align:center;margin:0 0 16px 0;font-weight:700;">What They Do</h2>
+      <p style="font-family:Nunito,sans-serif;font-size:18px;color:#00606A;text-align:center;margin:0 0 48px 0;">Four pillars of sustainable community transformation</p>
+      
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+        <!-- Card 1 -->
+        <div style="background:#00838F;border-radius:8px;padding:32px 24px;border-top:4px solid #00BCD4;color:white;">
+          <span style="font-size:32px;display:block;margin-bottom:16px;">🌱</span>
+          <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:18px;color:white;margin:0 0 16px 0;">Regenerative Agriculture & Biochar</h3>
+          <p style="font-family:Nunito,sans-serif;color:white;font-size:16px;line-height:1.6;margin:0;">Moringa systems, soil restoration, and biochar production — rebuilding the land while feeding the community.</p>
+        </div>
+        <!-- Card 2 -->
+        <div style="background:#00838F;border-radius:8px;padding:32px 24px;border-top:4px solid #00BCD4;color:white;">
+          <span style="font-size:32px;display:block;margin-bottom:16px;">🥗</span>
+          <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:18px;color:white;margin:0 0 16px 0;">Nutrition & Food Security</h3>
+          <p style="font-family:Nunito,sans-serif;color:white;font-size:16px;line-height:1.6;margin:0;">Ensuring communities have consistent access to nutritious food through sustainable, locally-led agricultural initiatives.</p>
+        </div>
+        <!-- Card 3 -->
+        <div style="background:#00838F;border-radius:8px;padding:32px 24px;border-top:4px solid #00BCD4;color:white;">
+          <span style="font-size:32px;display:block;margin-bottom:16px;">💼</span>
+          <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:18px;color:white;margin:0 0 16px 0;">Sustainable Livelihoods</h3>
+          <p style="font-family:Nunito,sans-serif;color:white;font-size:16px;line-height:1.6;margin:0;">Creating income-generating activities that empower the most vulnerable — particularly youth — to become self-reliant.</p>
+        </div>
+        <!-- Card 4 -->
+        <div style="background:#00838F;border-radius:8px;padding:32px 24px;border-top:4px solid #00BCD4;color:white;">
+          <span style="font-size:32px;display:block;margin-bottom:16px;">👩‍💼</span>
+          <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:18px;color:white;margin:0 0 16px 0;">Women's Entrepreneurship</h3>
+          <p style="font-family:Nunito,sans-serif;color:white;font-size:16px;line-height:1.6;margin:0;">Placing women at the centre of economic change, building leadership and enterprise from within the community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION D: 5-STEP APPROACH -->
+  <section class="mm-approach" style="background:#FFFFFF;padding:80px 40px;">
+    <div class="container" style="max-width:1200px;margin:0 auto;">
+      <h2 style="font-family:'Playfair Display',serif;font-size:36px;color:#082030;text-align:center;margin:0 0 16px 0;font-weight:700;">How They Work</h2>
+      <p style="font-family:Nunito,sans-serif;font-size:18px;color:#00606A;text-align:center;margin:0 0 48px 0;">A 5-step community-led project methodology</p>
+      
+      <div style="max-width:800px;margin:0 auto;">
+        <!-- Step 1 -->
+        <div style="display:flex;gap:32px;margin-bottom:40px;align-items:flex-start;">
+          <div style="flex-shrink:0;min-width:80px;text-align:center;border-left:2px dashed #00BCD4;padding-left:16px;">
+            <div style="font-family:'Playfair Display',serif;font-size:56px;color:#00BCD4;font-weight:700;margin:0;">1</div>
+          </div>
+          <div style="flex:1;">
+            <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:20px;color:#082030;margin:0 0 8px 0;">Focus on Rural and Poor Regions</h3>
+            <p style="font-family:Nunito,sans-serif;font-size:17px;color:#0A0A0A;line-height:1.75;margin:0;">Attention is directed toward rural and economically disadvantaged regions where the need for support is most acute — communities that lack access to essential resources and face the greatest challenges.</p>
           </div>
         </div>
-        <div class="timeline-step">
-          <div class="step-number">2</div>
-          <div class="step-content">
-            <h3>Participatory Planning</h3>
-            <p>Communities and Maisha Marefu partners co-design solutions. Local stakeholders lead decision-making, ensuring programs reflect their priorities and cultural context.</p>
+        
+        <!-- Step 2 -->
+        <div style="display:flex;gap:32px;margin-bottom:40px;align-items:flex-start;">
+          <div style="flex-shrink:0;min-width:80px;text-align:center;border-left:2px dashed #00BCD4;padding-left:16px;">
+            <div style="font-family:'Playfair Display',serif;font-size:56px;color:#00BCD4;font-weight:700;margin:0;">2</div>
+          </div>
+          <div style="flex:1;">
+            <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:20px;color:#082030;margin:0 0 8px 0;">Identification of Aligned Partners</h3>
+            <p style="font-family:Nunito,sans-serif;font-size:17px;color:#0A0A0A;line-height:1.75;margin:0;">Partners are identified who share Maisha Marefu's objectives and have the capacity to collaborate — committed to sustainable development and genuinely motivated to create positive change.</p>
           </div>
         </div>
-        <div class="timeline-step">
-          <div class="step-number">3</div>
-          <div class="step-content">
-            <h3>Implementation & Training</h3>
-            <p>Hands-on training in regenerative agriculture, business skills, and food production. We provide technical support, resources, and mentorship throughout the learning process.</p>
+        
+        <!-- Step 3 -->
+        <div style="display:flex;gap:32px;margin-bottom:40px;align-items:flex-start;">
+          <div style="flex-shrink:0;min-width:80px;text-align:center;border-left:2px dashed #00BCD4;padding-left:16px;">
+            <div style="font-family:'Playfair Display',serif;font-size:56px;color:#00BCD4;font-weight:700;margin:0;">3</div>
+          </div>
+          <div style="flex:1;">
+            <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:20px;color:#082030;margin:0 0 8px 0;">Assessment of Community Strengths</h3>
+            <p style="font-family:Nunito,sans-serif;font-size:17px;color:#0A0A0A;line-height:1.75;margin:0;">Before any project begins, a thorough assessment of the community's strengths, resources, and objectives is conducted — ensuring every solution is rooted in what the community already has.</p>
           </div>
         </div>
-        <div class="timeline-step">
-          <div class="step-number">4</div>
-          <div class="step-content">
-            <h3>Market Access & Linkages</h3>
-            <p>Connecting farmers and entrepreneurs to buyers, markets, and networks. Building supply chains and business relationships that enable economic growth and sustainability.</p>
+        
+        <!-- Step 4 -->
+        <div style="display:flex;gap:32px;margin-bottom:40px;align-items:flex-start;">
+          <div style="flex-shrink:0;min-width:80px;text-align:center;border-left:2px dashed #00BCD4;padding-left:16px;">
+            <div style="font-family:'Playfair Display',serif;font-size:56px;color:#00BCD4;font-weight:700;margin:0;">4</div>
+          </div>
+          <div style="flex:1;">
+            <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:20px;color:#082030;margin:0 0 8px 0;">Mobilisation and Self-Assessment</h3>
+            <p style="font-family:Nunito,sans-serif;font-size:17px;color:#0A0A0A;line-height:1.75;margin:0;">Communities are empowered to take ownership of their own development through facilitated self-assessment sessions — identifying their own strengths, challenges, and opportunities.</p>
           </div>
         </div>
-        <div class="timeline-step">
-          <div class="step-number">5</div>
-          <div class="step-content">
-            <h3>Monitoring & Adaptation</h3>
-            <p>Continuous feedback and measurement of impact. We adapt strategies based on community feedback, market conditions, and outcomes to ensure lasting, meaningful change.</p>
+        
+        <!-- Step 5 -->
+        <div style="display:flex;gap:32px;align-items:flex-start;">
+          <div style="flex-shrink:0;min-width:80px;text-align:center;border-left:2px dashed #00BCD4;padding-left:16px;">
+            <div style="font-family:'Playfair Display',serif;font-size:56px;color:#00BCD4;font-weight:700;margin:0;">5</div>
+          </div>
+          <div style="flex:1;">
+            <h3 style="font-family:Nunito,sans-serif;font-weight:700;font-size:20px;color:#082030;margin:0 0 8px 0;">Action Plan Development</h3>
+            <p style="font-family:Nunito,sans-serif;font-size:17px;color:#0A0A0A;line-height:1.75;margin:0;">A comprehensive, community-authored action plan is developed — with specific goals, activities, timelines, and responsibilities — ensuring transparency and genuine local ownership.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section E: Connection to Lorubae -->
-  <section class="lorubae-connection">
-    <div class="container">
-      <h2>Our Connection with Lorubae</h2>
-      <div class="connection-content">
-        <p>Maisha Marefu identified Lorubae Comprehensive School as a partner whose values and community align with their mission. In the arid expanses of Samburu East — where resources are scarce and opportunity often feels distant — they chose to invest. What followed was a partnership built not on charity, but on shared belief in what this community could become.</p>
+  <!-- SECTION E: PARTNERSHIP WITH LORUBAE -->
+  <section class="mm-partnership" style="background:#082030;padding:80px 40px;color:white;">
+    <div class="container" style="max-width:1200px;margin:0 auto;">
+      <h2 style="font-family:'Playfair Display',serif;font-size:36px;color:#F59E0B;text-align:center;margin:0 0 40px 0;font-weight:700;">Their Partnership with Lorubae</h2>
+      
+      <p style="max-width:760px;margin:0 auto 48px;text-align:center;font-family:Nunito,sans-serif;color:white;font-size:18px;line-height:1.8;">
+        Maisha Marefu identified Lorubae Comprehensive School as a partner whose values and community align with their mission. In the arid expanses of Samburu East — where resources are scarce and opportunity often feels distant — they chose to invest. What followed was a partnership built not on charity, but on shared belief in what this community could become.
+      </p>
+      
+      <div style="display:flex;gap:24px;justify-content:center;margin:48px 0;flex-wrap:wrap;">
+        <div style="background:#040F18;border-radius:8px;padding:32px 40px;text-align:center;">
+          <div style="font-family:'Playfair Display',serif;font-size:48px;color:#F59E0B;font-weight:700;margin:0;"><!-- PLACEHOLDER: CLASSROOMS_BUILT -->[CLASSROOMS]</div>
+          <div style="font-family:Nunito,sans-serif;color:white;font-size:16px;margin-top:8px;">Classrooms Built</div>
+        </div>
+        <div style="background:#040F18;border-radius:8px;padding:32px 40px;text-align:center;">
+          <div style="font-family:'Playfair Display',serif;font-size:48px;color:#F59E0B;font-weight:700;margin:0;"><!-- PLACEHOLDER: DORM_BLOCKS -->[DORM BLOCKS]</div>
+          <div style="font-family:Nunito,sans-serif;color:white;font-size:16px;margin-top:8px;">Dormitory Blocks</div>
+        </div>
+        <div style="background:#040F18;border-radius:8px;padding:32px 40px;text-align:center;">
+          <div style="font-family:'Playfair Display',serif;font-size:48px;color:#F59E0B;font-weight:700;margin:0;"><!-- PLACEHOLDER: OTHER_FACILITIES -->[FACILITIES]</div>
+          <div style="font-family:Nunito,sans-serif;color:white;font-size:16px;margin-top:8px;">Other Facilities</div>
+        </div>
       </div>
-      <div class="connection-stats">
-        <div class="stat-card-small">
-          <h3 style="color: var(--color-flame);"><!-- PLACEHOLDER: CLASSROOMS_BUILT -->[CLASSROOMS]</h3>
-          <p>Classrooms Built</p>
-        </div>
-        <div class="stat-card-small">
-          <h3 style="color: var(--color-flame);"><!-- PLACEHOLDER: DORM_BLOCKS -->[DORMS]</h3>
-          <p>Dormitory Blocks</p>
-        </div>
-        <div class="stat-card-small">
-          <h3 style="color: var(--color-flame);"><!-- PLACEHOLDER: OTHER_FACILITIES -->[FACILITIES]</h3>
-          <p>Other Facilities</p>
-        </div>
-      </div>
-      <p style="color: rgba(255, 255, 255, 0.7); font-size: 14px; font-style: italic; margin-top: 32px; text-align: center;">Specific project details and photos to be provided by the school.</p>
+      
+      <p style="color:rgba(255,255,255,0.5);font-size:14px;font-style:italic;text-align:center;margin:24px 0 0 0;">
+        Specific project details and photos to be provided by the school.
+      </p>
     </div>
   </section>
 
-  <!-- Section F: Voices -->
-  <section class="voices-section">
-    <div class="container">
-      <h2>In Their Own Words</h2>
-      <div class="voices-grid">
-        <div class="voice-card">
-          <div class="quote-mark">"</div>
-          <p class="quote-text"><!-- PLACEHOLDER: QUOTE FROM MAISHA MAREFU REPRESENTATIVE -->Maisha Marefu's partnership with Lorubae has created tangible pathways for young people to become agents of their own transformation.</p>
-          <p class="quote-source">— <!-- PLACEHOLDER: NAME -->Maisha Marefu Representative</p>
+  <!-- SECTION F: VOICES -->
+  <section class="mm-voices" style="background:#0D3B52;padding:80px 40px;">
+    <div class="container" style="max-width:1200px;margin:0 auto;">
+      <h2 style="font-family:'Playfair Display',serif;font-size:36px;color:white;text-align:center;margin:0 0 48px 0;font-weight:700;">In Their Own Words</h2>
+      
+      <div style="display:flex;gap:32px;flex-wrap:wrap;justify-content:center;">
+        <!-- Quote Card 1 -->
+        <div style="background:#040F18;border-radius:8px;padding:40px;flex:1;min-width:300px;max-width:500px;display:flex;flex-direction:column;">
+          <div style="font-family:'Playfair Display',serif;font-size:80px;color:#00BCD4;line-height:1;margin-bottom:16px;display:block;">​"</div>
+          <p style="font-family:Lora,serif;font-style:italic;color:white;font-size:19px;line-height:1.7;margin:0;flex:1;"><!-- PLACEHOLDER: QUOTE FROM MAISHA MAREFU REPRESENTATIVE -->Maisha Marefu co-builds community systems rooted in local leadership and trust.</p>
+          <p style="font-family:Nunito,sans-serif;color:#00BCD4;font-size:15px;font-weight:600;margin:24px 0 0 0;">— <!-- PLACEHOLDER: NAME -->Maisha Marefu Representative</p>
         </div>
-        <div class="voice-card">
-          <div class="quote-mark">"</div>
-          <p class="quote-text"><!-- PLACEHOLDER: QUOTE FROM SCHOOL PRINCIPAL OR STUDENT -->Our students are no longer passive recipients of charity; they are learning to be architects of their own futures and leaders of their communities.</p>
-          <p class="quote-source">— <!-- PLACEHOLDER: NAME -->Lorubae Student Leader</p>
+        
+        <!-- Quote Card 2 -->
+        <div style="background:#040F18;border-radius:8px;padding:40px;flex:1;min-width:300px;max-width:500px;display:flex;flex-direction:column;">
+          <div style="font-family:'Playfair Display',serif;font-size:80px;color:#00BCD4;line-height:1;margin-bottom:16px;display:block;">​"</div>
+          <p style="font-family:Lora,serif;font-style:italic;color:white;font-size:19px;line-height:1.7;margin:0;flex:1;"><!-- PLACEHOLDER: QUOTE FROM SCHOOL PRINCIPAL OR STUDENT -->Our students are learning to be architects of their own futures and leaders of their communities.</p>
+          <p style="font-family:Nunito,sans-serif;color:#00BCD4;font-size:15px;font-weight:600;margin:24px 0 0 0;">— <!-- PLACEHOLDER: NAME -->Lorubae Student Leader</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section G: Support CTA -->
-  <section class="support-cta">
-    <div class="container">
-      <h2>Inspired to Make a Difference?</h2>
-      <p>If you are moved by what Maisha Marefu and Lorubae are building together, reach out. Every contribution — of resources, expertise, or partnership — changes what is possible in Samburu East.</p>
-      <div class="cta-buttons">
-        <a href="mailto:lorubaeschool@gmail.com" class="btn btn-primary">Contact the School</a>
-        <a href="https://www.maisha-marefu.org" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Visit Maisha Marefu ↗</a>
+  <!-- SECTION G: SUPPORT CTA -->
+  <section class="mm-cta" style="background:#00838F;padding:80px 40px;text-align:center;">
+    <div class="container" style="max-width:1200px;margin:0 auto;">
+      <h2 style="font-family:'Playfair Display',serif;font-size:40px;color:white;margin:0 0 24px 0;font-weight:700;">Inspired to Make a Difference?</h2>
+      
+      <p style="max-width:640px;margin:0 auto 40px;font-family:Nunito,sans-serif;color:white;font-size:18px;line-height:1.8;">
+        If you are moved by what Maisha Marefu and Lorubae are building together, reach out. Every contribution — of resources, expertise, or partnership — changes what is possible in Samburu East.
+      </p>
+      
+      <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;">
+        <a href="mailto:lorubaeschool@gmail.com"
+           style="display:inline-block;background:#F59E0B;color:#082030;padding:16px 40px;border-radius:4px;
+                  font-family:Nunito,sans-serif;font-weight:600;text-decoration:none;transition:all 0.3s ease;
+                  border:2px solid #F59E0B;">
+          Contact the School
+        </a>
+        <a href="https://www.maisha-marefu.org"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display:inline-block;background:transparent;color:white;padding:16px 40px;border-radius:4px;
+                  font-family:Nunito,sans-serif;font-weight:600;text-decoration:none;transition:all 0.3s ease;
+                  border:2px solid white;">
+          Visit Maisha Marefu ↗
+        </a>
       </div>
     </div>
   </section>
+
+  <!-- MAIN CONTENT END -->
 
   <!-- Footer -->
   <footer class="footer">
