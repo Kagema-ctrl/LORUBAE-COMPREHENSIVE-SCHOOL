@@ -1,6 +1,51 @@
 /* Maisha Marefu Page Styles - CSP Compliant (No Inline Styles) */
 
 /* ============================================
+  NAVIGATION (page markup compatibility)
+  ============================================ */
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.navbar-logo {
+  height: 44px;
+  width: auto;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navbar-menu a {
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+/* ============================================
    SECTION A: HERO
    ============================================ */
 .mm-hero {
@@ -141,6 +186,31 @@
 .mm-intro-right img {
   width: 100%;
   border-radius: 8px;
+  display: block;
+}
+
+/* Team photo placeholder (when team.jpg not provided yet) */
+.mm-team-photo-container {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 300px;
+  background: #00606A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mm-team-photo-container.img-missing::after {
+  content: "Photo coming soon";
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+.mm-team-photo-container img {
+  width: 100%;
   display: block;
 }
 
@@ -538,6 +608,11 @@
 }
 
 @media (max-width: 768px) {
+  .navbar-menu {
+    gap: 16px;
+    justify-content: flex-end;
+  }
+
   .mm-hero {
     min-height: 400px;
   }
