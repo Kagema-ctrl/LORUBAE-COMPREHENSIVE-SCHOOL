@@ -682,3 +682,34 @@ textarea {
 .py-lg {
   padding: var(--spacing-lg) 0;
 }
+
+/* Find Us Section - Responsive Layout */
+.find-us-container {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+.find-us-text {
+  flex: 1;
+}
+
+.find-us-map {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .find-us-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .find-us-text {
+    flex: 1;
+  }
+
+  .find-us-map {
+    flex: 1;
+    width: 100%;
+  }
+}
