@@ -1,0 +1,48 @@
+/* ================================================
+   GALLERY.HTML PAGE-SPECIFIC STYLES
+   Gallery page inline style conversions
+   ================================================ */
+
+/* Gallery Hero Section */
+.gallery-hero h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Photo Grid Section */
+.gallery-section {
+  padding: 48px 0;
+}
+
+/* Footer Email Link */
+footer a[href*="mailto:"] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gallery-section {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-section {
+    padding: 32px 0;
+  }
+  
+  .gallery-hero h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-section {
+    padding: 24px 0;
+  }
+  
+  .gallery-hero h1 {
+    font-size: 24px;
+  }
+}

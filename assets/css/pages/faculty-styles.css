@@ -1,0 +1,105 @@
+/* ================================================
+   FACULTY.HTML STYLES
+   Page-specific styles for the faculty page
+   ================================================ */
+
+/* Faculty Hero Section */
+.faculty-hero h1 {
+  color: white;
+}
+
+/* Deputy Principal Section */
+.off-white-bg h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.deputy-principal-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.principal-content.deputy-gap {
+  gap: 32px;
+}
+
+.principal-photo.deputy-size {
+  width: 250px;
+  height: 250px;
+}
+
+.principal-bio p:last-of-type {
+  margin-top: 16px;
+}
+
+/* Teaching Staff Section */
+.staff-grid h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.staff-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
+/* Join Team Button */
+.join-team .btn-primary {
+  margin-top: 24px;
+}
+
+/* Footer Contact Link */
+footer a[href*="mailto:"] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .principal-photo.deputy-size {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .staff-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .deputy-principal-wrapper {
+    max-width: 100%;
+  }
+  
+  .principal-content.deputy-gap {
+    gap: 16px;
+    flex-direction: column;
+  }
+  
+  .principal-photo.deputy-size {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  
+  .staff-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .principal-photo.deputy-size {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .staff-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 16px;
+  }
+  
+  .off-white-bg h2 {
+    margin-bottom: 32px;
+  }
+}

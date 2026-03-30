@@ -1,0 +1,96 @@
+/* ================================================
+   WALL-OF-HONOR.HTML INLINE STYLES
+   Converted to external CSS
+   ================================================ */
+
+/* Top Students Section */
+.top-students h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* Rank 1 Student Info */
+.rank-one-info .rank-badge {
+  display: block;
+}
+
+.rank-one-info h2 {
+  color: var(--color-amber);
+  margin-bottom: 8px;
+}
+
+.rank-one-info .rank-stream {
+  color: var(--color-sky-teal);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.rank-one-info .rank-quote {
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+}
+
+/* Top Students Grid Header */
+.students-grid-header {
+  margin-top: 48px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .top-students h2 {
+    margin-bottom: 24px;
+  }
+  
+  .students-grid-header {
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-students h2 {
+    margin-bottom: 20px;
+  }
+  
+  .rank-one-info h2 {
+    font-size: 24px;
+  }
+  
+  .students-grid-header {
+    margin-top: 32px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-students h2 {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  
+  .rank-one-info h2 {
+    font-size: 20px;
+  }
+  
+  .students-grid-header {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+}
+
+/* Inline-style parity for remaining section headers (CSP-safe) */
+.subject-stars h2,
+.awards-section h2,
+.performance-chart h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* Footer Email Link */
+footer a[href*="mailto:"] {
+  color: rgba(255, 255, 255, 0.8);
+}

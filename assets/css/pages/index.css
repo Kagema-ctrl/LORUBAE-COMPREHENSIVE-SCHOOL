@@ -1,0 +1,278 @@
+/* ================================================
+   INDEX.HTML STYLES
+   Page-specific styles for the home/index page
+   ================================================ */
+
+/* Hero Section Images & Logo */
+.hero-logo {
+  width: 200px;
+  height: 200px;
+}
+
+/* Hero Section Subtitle */
+.hero .subtitle {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Who We Are Section */
+.two-column h2 {
+  border-left: 4px solid var(--color-sky-teal);
+  padding-left: 20px;
+}
+
+/* Principal Section Image */
+.two-column img {
+  border-radius: 8px;
+}
+
+/* Principal Welcome Section */
+.slate-teal-bg h2 {
+  color: white;
+}
+
+.slate-teal-bg > .container > .two-column > div p:first-of-type {
+  color: rgb(230, 230, 230);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.slate-teal-bg > .container > .two-column > div > p:nth-of-type(2) {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Scripture Pullout Block */
+.scripture-pullout {
+  background: #040F18;
+  border-radius: 6px;
+  border-left: 5px solid #00BCD4;
+  padding: 28px 32px;
+  margin-top: 32px;
+  max-width: 620px;
+}
+
+.scripture-pullout p:first-child {
+  font-family: var(--font-blockquote);
+  font-style: italic;
+  font-size: 19px;
+  color: white;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.scripture-pullout p:nth-child(2) {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  color: #00BCD4;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.scripture-pullout .divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin: 20px 0;
+}
+
+.scripture-pullout p:last-child {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  margin: 0;
+  font-style: normal;
+}
+
+/* Maisha Marefu Teaser Section */
+.steel-blue-bg.teaser-section {
+  text-align: center;
+}
+
+.steel-blue-bg.teaser-section h2 {
+  color: white;
+  margin-bottom: 24px;
+}
+
+.maisha-teaser-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  margin-bottom: 24px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats-grid {
+  text-align: center;
+}
+
+.stats-grid .stat-item h3 {
+  color: var(--color-crimson);
+}
+
+.stats-grid .stat-item p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.maisha-cta-button {
+  margin-top: 32px;
+}
+
+/* Blog Section */
+.off-white-bg h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.blog-coming-soon {
+  text-align: center;
+  padding: 64px 0;
+}
+
+.blog-coming-soon-card {
+  background: white;
+  padding: 48px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-coming-soon-card h3 {
+  color: var(--color-navy);
+  margin-bottom: 16px;
+}
+
+.blog-coming-soon-card p {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.blog-coming-soon-card .coming-soon-note {
+  color: #999;
+  font-size: 14px;
+}
+
+.blog-cta {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-logo {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .hero .subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .hero .subtitle {
+    font-size: 18px;
+  }
+  
+  .scripture-pullout {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .hero .subtitle {
+    font-size: 16px;
+  }
+  
+  .scripture-pullout {
+    padding: 20px 24px;
+  }
+  
+  .scripture-pullout p:first-child {
+    font-size: 16px;
+  }
+  
+  .scripture-pullout p:last-child {
+    font-size: 14px;
+  }
+  
+  .maisha-teaser-text {
+    font-size: 16px;
+  }
+}
+
+/* Contact & Footer (inline-style parity, CSP-safe) */
+.contact-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contact-section .find-us-text h3 {
+  color: var(--color-navy);
+  margin-bottom: 24px;
+}
+
+.contact-section .find-us-text > p {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.contact-details {
+  margin: 24px 0;
+}
+
+.contact-details .contact-item {
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.contact-details .contact-item--no-margin {
+  margin-bottom: 0;
+}
+
+.contact-email-link {
+  color: var(--color-deep-teal);
+  text-decoration: none;
+}
+
+.contact-section iframe {
+  border: 0;
+  border-radius: 8px;
+  display: block;
+}
+
+footer a[href*="mailto:"] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-small-note {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.6);
+}

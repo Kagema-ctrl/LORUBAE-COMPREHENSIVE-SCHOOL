@@ -1,0 +1,133 @@
+/* ================================================
+   CHRISTIAN-UNION.HTML INLINE STYLES
+   Page-specific styles converted from inline
+   ================================================ */
+
+/* CU About Section */
+.cu-mission h4,
+.cu-vision h4,
+.cu-patron h4 {
+  color: var(--color-midnight);
+}
+
+.cu-mission p,
+.cu-vision p,
+.cu-patron p {
+  color: var(--color-text);
+}
+
+.cu-mission p,
+.cu-vision p {
+  margin-bottom: 0;
+}
+
+.cu-patron {
+  margin-top: 16px;
+}
+
+.cu-patron p:first-of-type {
+  margin: 8px 0 0 0;
+}
+
+.cu-patron p:nth-of-type(2) {
+  color: var(--color-text);
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* CU Activities Section */
+.cu-activities h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* CU Events Section */
+.cu-events h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* CU Gallery Section */
+.cu-gallery h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* CU Join Section */
+.cu-join p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cu-join p.next-meeting {
+  /* retain default styling */
+}
+
+.cu-join p:last-of-type {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+/* Footer Contact Email Link */
+footer a[href*="mailto:"] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .cu-activities h2 {
+    margin-bottom: 40px;
+  }
+  
+  .cu-events h2 {
+    margin-bottom: 40px;
+  }
+  
+  .cu-gallery h2 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cu-activities h2 {
+    margin-bottom: 32px;
+  }
+  
+  .cu-events h2 {
+    margin-bottom: 32px;
+  }
+  
+  .cu-gallery h2 {
+    margin-bottom: 32px;
+  }
+  
+  .cu-join p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cu-activities h2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  
+  .cu-events h2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  
+  .cu-gallery h2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  
+  .cu-patron p:first-of-type {
+    font-size: 14px;
+  }
+  
+  .cu-patron p:nth-of-type(2) {
+    font-size: 12px;
+  }
+}

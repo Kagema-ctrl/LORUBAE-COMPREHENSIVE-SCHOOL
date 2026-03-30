@@ -1,0 +1,121 @@
+/* ================================================
+   BLOG/INDEX.HTML INLINE STYLES
+   Page-specific styles converted from inline
+   ================================================ */
+
+/* Blog Hero Section */
+.blog-hero h1 {
+  color: white;
+}
+
+/* Featured Post Section */
+.blog-featured-section {
+  padding: 48px 0;
+}
+
+.blog-featured-container {
+  text-align: center;
+  padding: 64px 0;
+}
+
+.blog-coming-soon-card {
+  background: white;
+  padding: 48px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-coming-soon-card h2 {
+  color: var(--color-navy);
+  margin-bottom: 24px;
+}
+
+.blog-coming-soon-card p {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.blog-coming-soon-note {
+  color: #999;
+}
+
+/* Category Filter Section */
+.blog-category-filter-section {
+  padding: 0;
+  background: var(--color-white);
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* Blog Grid Section */
+.blog-grid-section {
+  padding: 48px 0;
+  background: var(--color-white);
+}
+
+.blog-empty-state {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.blog-empty-state p {
+  color: #999;
+  font-size: 14px;
+}
+
+/* Footer Email Link */
+footer a[href*="mailto:"] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .blog-featured-section {
+    padding: 40px 0;
+  }
+  
+  .blog-featured-container {
+    padding: 56px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-featured-section {
+    padding: 32px 0;
+  }
+  
+  .blog-featured-container {
+    padding: 48px 0;
+  }
+  
+  .blog-coming-soon-card {
+    padding: 32px;
+  }
+  
+  .blog-coming-soon-card p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-featured-section {
+    padding: 24px 0;
+  }
+  
+  .blog-featured-container {
+    padding: 32px 0;
+  }
+  
+  .blog-coming-soon-card {
+    padding: 24px;
+  }
+  
+  .blog-hero h1 {
+    font-size: 24px;
+  }
+}
