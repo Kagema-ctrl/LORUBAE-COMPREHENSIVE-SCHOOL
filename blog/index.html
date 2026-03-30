@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog - Stories and News from Lorubae Comprehensive School">
+  <title>Blog - Lorubae Comprehensive School</title>
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/pages/blog.css">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=[GA_MEASUREMENT_ID]"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '[GA_MEASUREMENT_ID]', {'anonymize_ip': true});
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="/assets/images/logo/lorubae-logo.png" alt="Lorubae Logo">
+      <span class="navbar-brand">Lorubae School</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery.html">Gallery</a></li>
+      <li><a href="/maisha-marefu.html">Maisha Marefu</a></li>
+      <li><a href="/wall-of-honor.html">Wall of Honor</a></li>
+      <li><a href="/faculty.html">Faculty</a></li>
+      <li><a href="/christian-union.html">Christian Union</a></li>
+      <li><a href="/blog/" class="active">Blog</a></li>
+    </ul>
+    <button class="cta-button">Contact Us</button>
+    <button class="hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer">
+    <a href="/">Home</a>
+    <a href="/gallery.html">Gallery</a>
+    <a href="/maisha-marefu.html">Maisha Marefu</a>
+    <a href="/wall-of-honor.html">Wall of Honor</a>
+    <a href="/faculty.html">Faculty</a>
+    <a href="/christian-union.html">Christian Union</a>
+    <a href="/blog/" class="active">Blog</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="blog-hero">
+    <div class="container">
+      <h1 style="color: white;">Stories From Lorubae</h1>
+      <input type="search" class="search-bar" placeholder="Search stories..." aria-label="Search blog posts">
+    </div>
+  </section>
+
+  <!-- Featured Post -->
+  <section style="padding: 48px 0;">
+    <div class="container">
+      <a href="/blog/[featured-post-slug].html" style="text-decoration: none;">
+        <div class="featured-post">
+          <img src="/assets/images/blog/[FEATURED_IMAGE].jpg" alt="[FEATURED_TITLE]">
+          <div class="featured-post-overlay">
+            <span class="featured-post-category">[FEATURED_CATEGORY]</span>
+            <h2 class="featured-post-title">[FEATURED_TITLE]</h2>
+            <p class="featured-post-meta">[FEATURED_DATE] • By [FEATURED_AUTHOR]</p>
+            <p class="featured-post-excerpt">[FEATURED_EXCERPT]</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Category Filter -->
+  <section style="padding: 0; background: var(--color-white); border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+    <div class="container">
+      <div class="category-filter">
+        <button class="category-pill active" data-category="all">All</button>
+        <button class="category-pill" data-category="school-news">School News</button>
+        <button class="category-pill" data-category="community">Community Stories</button>
+        <button class="category-pill" data-category="student-voices">Student Voices</button>
+        <button class="category-pill" data-category="events">Events</button>
+        <button class="category-pill" data-category="alumni">Alumni</button>
+        <button class="category-pill" data-category="faith-life">Faith Life</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid -->
+  <section style="padding: 48px 0; background: var(--color-white);">
+    <div class="container">
+      <div class="blog-grid">
+        <!-- Blog Post 1 -->
+        <a href="/blog/[post-slug-1].html" style="text-decoration: none;">
+          <article class="blog-card" data-category="[CATEGORY_1]">
+            <img src="/assets/images/blog/[BLOG_IMAGE_1].jpg" alt="[BLOG_TITLE_1]" class="blog-card-image" loading="lazy">
+            <div class="blog-card-body">
+              <span class="blog-card-category">[CATEGORY_1]</span>
+              <h3 class="blog-card-title">[BLOG_TITLE_1]</h3>
+              <p class="blog-card-meta">[DATE_1] • [AUTHOR_1]</p>
+              <p class="blog-card-excerpt">[BLOG_EXCERPT_1]</p>
+              <span class="read-more">Read More →</span>
+            </div>
+          </article>
+        </a>
+
+        <!-- Blog Post 2 -->
+        <a href="/blog/[post-slug-2].html" style="text-decoration: none;">
+          <article class="blog-card" data-category="[CATEGORY_2]">
+            <img src="/assets/images/blog/[BLOG_IMAGE_2].jpg" alt="[BLOG_TITLE_2]" class="blog-card-image" loading="lazy">
+            <div class="blog-card-body">
+              <span class="blog-card-category">[CATEGORY_2]</span>
+              <h3 class="blog-card-title">[BLOG_TITLE_2]</h3>
+              <p class="blog-card-meta">[DATE_2] • [AUTHOR_2]</p>
+              <p class="blog-card-excerpt">[BLOG_EXCERPT_2]</p>
+              <span class="read-more">Read More →</span>
+            </div>
+          </article>
+        </a>
+
+        <!-- Blog Post 3 -->
+        <a href="/blog/[post-slug-3].html" style="text-decoration: none;">
+          <article class="blog-card" data-category="[CATEGORY_3]">
+            <img src="/assets/images/blog/[BLOG_IMAGE_3].jpg" alt="[BLOG_TITLE_3]" class="blog-card-image" loading="lazy">
+            <div class="blog-card-body">
+              <span class="blog-card-category">[CATEGORY_3]</span>
+              <h3 class="blog-card-title">[BLOG_TITLE_3]</h3>
+              <p class="blog-card-meta">[DATE_3] • [AUTHOR_3]</p>
+              <p class="blog-card-excerpt">[BLOG_EXCERPT_3]</p>
+              <span class="read-more">Read More →</span>
+            </div>
+          </article>
+        </a>
+
+        <!-- Add more blog posts -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="/assets/images/logo/lorubae-logo.png" alt="Logo" class="footer-logo">
+          <p>Knowledge is Power</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="/">Home</a><br>
+          <a href="/gallery.html">Gallery</a><br>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>[ADDRESS]</p>
+          <p><a href="tel:[PHONE]">[PHONE]</a></p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social-links">
+            <a href="[FACEBOOK]">f</a>
+            <a href="[TWITTER]">𝕏</a>
+            <a href="[INSTAGRAM]">📷</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="current-year">2024</span> Lorubae Comprehensive School.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/blog-search.js"></script>
+</body>
+</html>

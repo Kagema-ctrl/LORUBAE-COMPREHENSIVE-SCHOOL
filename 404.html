@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page not found - Lorubae Comprehensive School">
+  <title>404 - Page Not Found - Lorubae Comprehensive School</title>
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/pages/404.css">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=[GA_MEASUREMENT_ID]"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '[GA_MEASUREMENT_ID]', {'anonymize_ip': true});
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-content">
+      <div class="error-code">404</div>
+      <h1 class="error-message">Page Not Found</h1>
+      <p class="error-description">We're sorry, but the page you're looking for doesn't exist. It may have been moved or deleted.</p>
+      <a href="/" class="error-button">Back to Home</a>
+    </div>
+  </div>
+
+  <!-- Google Analytics -->
+  <script>
+    // Track 404 errors
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'page_not_found', {
+        'page_path': window.location.pathname
+      });
+    }
+  </script>
+</body>
+</html>

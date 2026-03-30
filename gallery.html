@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lorubae Comprehensive School Gallery - Photos of classrooms, dormitories, sports, events, and community life.">
+  <title>Gallery - Lorubae Comprehensive School</title>
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/pages/gallery.css">
+  
+  <!-- GLightbox CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=[GA_MEASUREMENT_ID]"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '[GA_MEASUREMENT_ID]', {'anonymize_ip': true});
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="/assets/images/logo/lorubae-logo.png" alt="Lorubae Logo">
+      <span class="navbar-brand">Lorubae School</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery.html" class="active">Gallery</a></li>
+      <li><a href="/maisha-marefu.html">Maisha Marefu</a></li>
+      <li><a href="/wall-of-honor.html">Wall of Honor</a></li>
+      <li><a href="/faculty.html">Faculty</a></li>
+      <li><a href="/christian-union.html">Christian Union</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+    <button class="cta-button">Contact Us</button>
+    <button class="hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer">
+    <a href="/">Home</a>
+    <a href="/gallery.html" class="active">Gallery</a>
+    <a href="/maisha-marefu.html">Maisha Marefu</a>
+    <a href="/wall-of-honor.html">Wall of Honor</a>
+    <a href="/faculty.html">Faculty</a>
+    <a href="/christian-union.html">Christian Union</a>
+    <a href="/blog/">Blog</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="gallery-hero">
+    <div class="container">
+      <h1 style="color: white; text-align: center; margin-bottom: 0;">Our School in Pictures</h1>
+    </div>
+  </section>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar">
+    <div class="container">
+      <ul class="filter-pills">
+        <li class="filter-pill active" data-category="all">All</li>
+        <li class="filter-pill" data-category="classrooms">Classrooms</li>
+        <li class="filter-pill" data-category="dormitories">Dormitories</li>
+        <li class="filter-pill" data-category="sports">Sports</li>
+        <li class="filter-pill" data-category="events">Events</li>
+        <li class="filter-pill" data-category="community">Community</li>
+        <li class="filter-pill" data-category="maisha-marefu">Maisha Marefu</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Photo Grid -->
+  <section style="padding: 48px 0;">
+    <div class="container">
+      <!-- Featured Album -->
+      <div class="card" style="margin-bottom: 48px; border-top: 3px solid var(--color-amber);">
+        <img src="/assets/images/gallery/[FEATURED_IMAGE].jpg" alt="[FEATURED_ALBUM_TITLE]" style="width: 100%; height: 300px; object-fit: cover;">
+        <div class="card-body">
+          <h3>[FEATURED_ALBUM_TITLE]</h3>
+          <p>[Featured album description]</p>
+        </div>
+      </div>
+
+      <!-- Gallery Items - Add your photos here -->
+      <div class="gallery-grid">
+        <!-- [MINIMUM 30 PHOTOS - Organize by category with data-category attribute] -->
+        <!-- Example structure: -->
+        <div class="gallery-item" data-category="classrooms">
+          <img src="/assets/images/gallery/classrooms/classroom-01.jpg" alt="Classroom" loading="lazy">
+          <span class="gallery-item-category">Classrooms</span>
+          <div class="gallery-item-overlay">
+            <div class="gallery-item-caption">[Caption Text]</div>
+          </div>
+        </div>
+        <!-- Repeat for remaining photos -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="/assets/images/logo/lorubae-logo.png" alt="Lorubae Logo" class="footer-logo">
+          <p>Knowledge is Power</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="/">Home</a><br>
+          <a href="/gallery.html">Gallery</a><br>
+          <a href="/blog/">Blog</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>[ADDRESS]</p>
+          <p><a href="tel:[PHONE]">[PHONE]</a></p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social-links">
+            <a href="[FACEBOOK]">f</a>
+            <a href="[TWITTER]">𝕏</a>
+            <a href="[INSTAGRAM]">📷</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="current-year">2024</span> Lorubae Comprehensive School.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+  <script src="/assets/js/gallery-filter.js"></script>
+</body>
+</html>

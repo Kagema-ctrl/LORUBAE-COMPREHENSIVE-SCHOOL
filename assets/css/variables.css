@@ -1,0 +1,59 @@
+:root {
+  /* Blues – Primary Structure */
+  --color-sky-teal: #00BCD4;
+  --color-deep-teal: #00838F;
+  --color-slate-teal: #00606A;
+  --color-steel-blue: #0D3B52;
+  --color-navy: #082030;
+  --color-midnight: #040F18;
+
+  /* Reds – Action & Pride */
+  --color-flame: #FF0000;
+  --color-crimson: #C00000;
+  --color-deep-crimson: #8B0000;
+  --color-maroon: #4A0000;
+
+  /* Amber – Excellence Only */
+  --color-amber: #F59E0B;
+  --color-burnished: #B45309;
+
+  /* Neutrals */
+  --color-text: #0A0A0A;
+  --color-white: #FFFFFF;
+  --color-off-white: #F8F8F6;
+
+  /* Typography */
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Nunito', sans-serif;
+  --font-scripture: 'Lora', serif;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 80px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.35s ease;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.12);
+
+  /* Z-Index */
+  --z-navbar: 1000;
+  --z-modal: 2000;
+  --z-tooltip: 3000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  :root {
+    --spacing-2xl: 48px;
+  }
+}

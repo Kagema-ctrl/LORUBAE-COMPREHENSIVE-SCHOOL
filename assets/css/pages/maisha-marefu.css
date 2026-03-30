@@ -1,0 +1,276 @@
+/* Maisha Marefu Page Styles */
+.maisha-hero {
+  background: var(--color-steel-blue);
+  color: var(--color-white);
+  padding: 120px 0 60px;
+  margin-top: 60px;
+}
+
+.maisha-hero h1 {
+  color: var(--color-white);
+}
+
+.maisha-hero-subtitle {
+  font-size: 24px;
+  color: var(--color-crimson);
+}
+
+.program-intro {
+  background: var(--color-white);
+  padding: var(--spacing-2xl) 0;
+}
+
+.program-intro-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+  align-items: center;
+}
+
+.program-intro-content img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.program-intro-text h2 {
+  color: var(--color-midnight);
+  margin-bottom: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+  .program-intro-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.impact-summary {
+  background: var(--color-off-white);
+  padding: var(--spacing-2xl) 0;
+}
+
+.impact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+  text-align: center;
+}
+
+.impact-card {
+  background: var(--color-steel-blue);
+  color: var(--color-white);
+  padding: var(--spacing-xl);
+  border-radius: 8px;
+}
+
+.impact-card h3 {
+  color: var(--color-white);
+  font-size: 48px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.impact-card p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.project-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+  align-items: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.project-story:nth-child(even) {
+  direction: rtl;
+}
+
+.project-story:nth-child(even) > * {
+  direction: ltr;
+}
+
+.project-story img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-story h3 {
+  color: var(--color-midnight);
+}
+
+.project-year {
+  color: var(--color-sky-teal);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  .project-story {
+    grid-template-columns: 1fr;
+    direction: ltr;
+  }
+
+  .project-story:nth-child(even) {
+    direction: ltr;
+  }
+}
+
+.voices-section {
+  background: var(--color-navy);
+  color: var(--color-white);
+  padding: var(--spacing-2xl) 0;
+  text-align: center;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.quote-card {
+  padding: var(--spacing-xl);
+  background: rgba(0, 188, 212, 0.1);
+  border-radius: 8px;
+}
+
+.quote-text {
+  font-family: var(--font-scripture);
+  font-size: 20px;
+  font-style: italic;
+  color: var(--color-white);
+  margin-bottom: var(--spacing-lg);
+  position: relative;
+  padding: 0 var(--spacing-lg);
+}
+
+.quote-text::before,
+.quote-text::after {
+  font-size: 48px;
+  color: var(--color-sky-teal);
+}
+
+.quote-text::before {
+  content: '"';
+  margin-right: var(--spacing-sm);
+}
+
+.quote-text::after {
+  content: '"';
+  margin-left: var(--spacing-sm);
+}
+
+.quote-source {
+  color: var(--color-sky-teal);
+  font-weight: 600;
+}
+
+.timeline-section {
+  background: var(--color-steel-blue);
+  color: var(--color-white);
+  padding: var(--spacing-2xl) 0;
+}
+
+.timeline {
+  position: relative;
+  padding: var(--spacing-xl) 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-sky-teal);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  margin-bottom: var(--spacing-xl);
+  position: relative;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: 52%;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: 52%;
+  text-align: left;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  background: var(--color-amber);
+  border: 3px solid var(--color-steel-blue);
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-lg);
+  border-radius: 4px;
+}
+
+.timeline-year {
+  color: var(--color-amber);
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.timeline-content h4 {
+  color: var(--color-white);
+  margin-bottom: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 80px;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-item::before {
+    left: 30px;
+  }
+}
+
+.support-cta {
+  background: var(--color-deep-teal);
+  color: var(--color-white);
+  padding: var(--spacing-2xl) 0;
+  text-align: center;
+}
+
+.support-cta h2 {
+  color: var(--color-white);
+  margin-bottom: var(--spacing-lg);
+}
+
+.support-contact {
+  font-size: 18px;
+  margin-bottom: var(--spacing-md);
+}
+
+.support-email,
+.support-phone {
+  color: var(--color-sky-teal);
+  font-weight: 600;
+}

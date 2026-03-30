@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wall of Honor - Celebrating Excellence at Lorubae Comprehensive School">
+  <title>Wall of Honor - Lorubae Comprehensive School</title>
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/pages/wall-of-honor.css">
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-XXXXXX" crossorigin="anonymous"></script>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=[GA_MEASUREMENT_ID]"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '[GA_MEASUREMENT_ID]', {'anonymize_ip': true});
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="/assets/images/logo/lorubae-logo.png" alt="Lorubae Logo">
+      <span class="navbar-brand">Lorubae School</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery.html">Gallery</a></li>
+      <li><a href="/maisha-marefu.html">Maisha Marefu</a></li>
+      <li><a href="/wall-of-honor.html" class="active">Wall of Honor</a></li>
+      <li><a href="/faculty.html">Faculty</a></li>
+      <li><a href="/christian-union.html">Christian Union</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+    <button class="cta-button">Contact Us</button>
+    <button class="hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer">
+    <a href="/">Home</a>
+    <a href="/gallery.html">Gallery</a>
+    <a href="/maisha-marefu.html">Maisha Marefu</a>
+    <a href="/wall-of-honor.html" class="active">Wall of Honor</a>
+    <a href="/faculty.html">Faculty</a>
+    <a href="/christian-union.html">Christian Union</a>
+    <a href="/blog/">Blog</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="wall-hero">
+    <div class="container">
+      <h1>🏆 Wall of Honor</h1>
+      <p class="subtitle">Celebrating Excellence & Achievement</p>
+    </div>
+  </section>
+
+  <!-- Performance Summary -->
+  <section class="performance-summary">
+    <div class="container">
+      <div class="performance-metrics">
+        <div class="metric-item">
+          <h3 data-target="[EXAM_YEAR]">[EXAM_YEAR]</h3>
+          <p>Examination Year</p>
+        </div>
+        <div class="metric-item">
+          <h3>[OVERALL_PERFORMANCE]</h3>
+          <p>Overall Performance</p>
+        </div>
+        <div class="metric-item">
+          <h3>[PROGRESSION_THRESHOLD]%</h3>
+          <p>Students Meeting Threshold</p>
+        </div>
+        <div class="metric-item">
+          <h3>[BEST_SUBJECT]</h3>
+          <p>Top Subject</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Students -->
+  <section class="top-students">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 32px;">Our Star Students</h2>
+      
+      <!-- Rank 1 Hero -->
+      <div class="rank-one-hero">
+        <img src="/assets/images/students/[RANK_1_PHOTO]" alt="[RANK_1_NAME]" class="rank-one-photo">
+        <div class="rank-one-info">
+          <span class="rank-badge">🏆 Rank 1 - Overall Top</span>
+          <h2 style="color: var(--color-amber); margin-bottom: 8px;">[RANK_1_NAME]</h2>
+          <p style="color: var(--color-sky-teal); margin-bottom: 16px; font-weight: 600;">[RANK_1_STREAM]</p>
+          <p style="color: rgba(255, 255, 255, 0.9); font-style: italic;">"[RANK_1_AMBITION]"</p>
+        </div>
+      </div>
+
+      <!-- Other Top Students -->
+      <h3 style="margin-top: 48px; margin-bottom: 32px; text-align: center;">Top 5-10 Students</h3>
+      <div class="students-grid">
+        <!-- Student 2 -->
+        <div class="student-card">
+          <img src="/assets/images/students/[STUDENT_2_PHOTO]" alt="[STUDENT_2_NAME]" class="student-photo">
+          <div class="student-info">
+            <h4>[STUDENT_2_NAME]</h4>
+            <p class="student-rank">Rank 2</p>
+            <p class="student-achievement">[STUDENT_2_STREAM]</p>
+          </div>
+        </div>
+
+        <!-- Student 3 -->
+        <div class="student-card">
+          <img src="/assets/images/students/[STUDENT_3_PHOTO]" alt="[STUDENT_3_NAME]" class="student-photo">
+          <div class="student-info">
+            <h4>[STUDENT_3_NAME]</h4>
+            <p class="student-rank">Rank 3</p>
+            <p class="student-achievement">[STUDENT_3_STREAM]</p>
+          </div>
+        </div>
+
+        <!-- Student 4 -->
+        <div class="student-card">
+          <img src="/assets/images/students/[STUDENT_4_PHOTO]" alt="[STUDENT_4_NAME]" class="student-photo">
+          <div class="student-info">
+            <h4>[STUDENT_4_NAME]</h4>
+            <p class="student-rank">Rank 4</p>
+            <p class="student-achievement">[STUDENT_4_STREAM]</p>
+          </div>
+        </div>
+
+        <!-- Add more students as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Subject Stars -->
+  <section class="subject-stars">
+    <div class="container">
+      <h2 style="color: white; text-align: center; margin-bottom: 48px;">Subject Excellence</h2>
+      <table class="subject-table">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Top Student</th>
+            <th>Performance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- [SUBJECT_STARS_DATA - Repeat for each subject] -->
+          <tr>
+            <td>[SUBJECT_1]</td>
+            <td>[TOP_STUDENT_1]</td>
+            <td><span class="star-indicator">⭐ [SCORE_1]</span></td>
+          </tr>
+          <!-- Add more rows -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Awards & Recognition -->
+  <section class="awards-section">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 48px;">Awards & Recognition</h2>
+      <div class="awards-list">
+        <!-- Award 1 -->
+        <div class="award-item">
+          <h4>[AWARD_NAME_1]</h4>
+          <p class="award-year">[YEAR_1]</p>
+          <p class="award-body">[AWARDING_BODY_1]</p>
+        </div>
+
+        <!-- Award 2 -->
+        <div class="award-item">
+          <h4>[AWARD_NAME_2]</h4>
+          <p class="award-year">[YEAR_2]</p>
+          <p class="award-body">[AWARDING_BODY_2]</p>
+        </div>
+
+        <!-- Add more awards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Performance Trend Chart (Optional) -->
+  <section class="performance-chart">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 48px;">Performance Trend</h2>
+      <div class="chart-container">
+        <canvas id="performanceChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="/assets/images/logo/lorubae-logo.png" alt="Logo" class="footer-logo">
+          <p>Knowledge is Power</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="/">Home</a><br>
+          <a href="/gallery.html">Gallery</a><br>
+          <a href="/blog/">Blog</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>[ADDRESS]</p>
+          <p><a href="tel:[PHONE]">[PHONE]</a></p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social-links">
+            <a href="[FACEBOOK]">f</a>
+            <a href="[TWITTER]">𝕏</a>
+            <a href="[INSTAGRAM]">📷</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="current-year">2024</span> Lorubae Comprehensive School.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/main.js"></script>
+  <script>
+    // Performance Trend Chart - Add your data
+    const ctx = document.getElementById('performanceChart').getContext('2d');
+    const performanceChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['[YEAR_1]', '[YEAR_2]', '[YEAR_3]', '[YEAR_4]', '[YEAR_5]'],
+        datasets: [{
+          label: 'Performance Trend',
+          data: [[TREND_DATA_1], [TREND_DATA_2], [TREND_DATA_3], [TREND_DATA_4], [TREND_DATA_5]],
+          borderColor: 'var(--color-sky-teal)',
+          backgroundColor: 'rgba(0, 188, 212, 0.1)',
+          borderWidth: 3,
+          fill: true,
+          pointBackgroundColor: 'var(--color-amber)',
+          pointBorderColor: 'var(--color-sky-teal)',
+          pointRadius: 6,
+          pointBorderWidth: 2,
+          tension: 0.4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            labels: {
+              color: 'var(--color-text)'
+            }
+          }
+        },
+        scales: {
+          y: {
+            grid: {
+              color: 'rgba(0, 0, 0, 0.05)'
+            },
+            ticks: {
+              color: 'var(--color-text)'
+            }
+          },
+          x: {
+            grid: {
+              color: 'rgba(0, 0, 0, 0.05)'
+            },
+            ticks: {
+              color: 'var(--color-text)'
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
