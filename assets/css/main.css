@@ -318,8 +318,9 @@ section {
 .hero .subtitle {
   font-family: var(--font-scripture);
   font-size: 24px;
-  color: var(--color-sky-teal);
+  color: var(--color-navy);
   font-style: italic;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 .hero-buttons {
