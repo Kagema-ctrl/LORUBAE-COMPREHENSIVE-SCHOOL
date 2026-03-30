@@ -1,15 +1,4 @@
 /* Blog Page Styles */
-.blog-hero {
-  background: var(--color-navy);
-  color: var(--color-white);
-  padding: 120px 0 60px;
-  margin-top: 60px;
-}
-
-.blog-hero h1 {
-  color: var(--color-white);
-  margin-bottom: var(--spacing-lg);
-}
 
 .search-bar {
   width: 100%;

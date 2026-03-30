@@ -8,6 +8,12 @@
   color: white;
 }
 
+/* Search strip placed below shared hero */
+.blog-search-strip {
+  background: var(--color-white);
+  padding: 24px 0;
+}
+
 /* Featured Post Section */
 .blog-featured-section {
   padding: 48px 0;

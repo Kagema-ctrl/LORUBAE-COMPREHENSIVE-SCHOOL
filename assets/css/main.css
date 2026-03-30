@@ -76,6 +76,64 @@ section {
   padding: var(--spacing-2xl) 0;
 }
 
+/* Shared typography-only hero (non-home pages) */
+.page-hero {
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 24px;
+  margin-top: 60px;
+}
+
+.page-hero .hero-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(36px, 5vw, 64px);
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.page-hero .hero-tagline {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: clamp(18px, 2.5vw, 26px);
+  color: #FFFFFF;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.page-hero .hero-descriptor {
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  color: #00BCD4;
+  letter-spacing: 0.02em;
+  margin-bottom: 0;
+}
+
+.hero-deep-teal {
+  background: #00838F;
+}
+
+.hero-steel-blue {
+  background: #0D3B52;
+}
+
+.hero-navy {
+  background: #082030;
+}
+
+.hero-honor h1 {
+  color: #F59E0B;
+}
+
 @media (max-width: 768px) {
   section {
     padding: var(--spacing-xl) 0;

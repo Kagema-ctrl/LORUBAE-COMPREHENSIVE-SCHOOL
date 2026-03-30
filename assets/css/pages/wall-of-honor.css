@@ -1,20 +1,4 @@
 /* Wall of Honor Page Styles */
-.wall-hero {
-  background: var(--color-navy);
-  color: var(--color-white);
-  padding: 120px 0 60px;
-  margin-top: 60px;
-}
-
-.wall-hero h1 {
-  color: var(--color-amber);
-  font-size: 64px;
-}
-
-.wall-hero .subtitle {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
-}
 
 .performance-summary {
   background: var(--color-midnight);

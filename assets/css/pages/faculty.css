@@ -1,14 +1,4 @@
 /* Faculty Page Styles */
-.faculty-hero {
-  background: var(--color-steel-blue);
-  color: var(--color-white);
-  padding: 120px 0 60px;
-  margin-top: 60px;
-}
-
-.faculty-hero h1 {
-  color: var(--color-white);
-}
 
 .principal-feature {
   background: var(--color-white);

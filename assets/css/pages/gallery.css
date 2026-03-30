@@ -1,14 +1,4 @@
 /* Gallery Page Styles */
-.gallery-hero {
-  background: var(--color-deep-teal);
-  color: var(--color-white);
-  padding: 120px 0 60px;
-  margin-top: 60px;
-}
-
-.gallery-hero h1 {
-  color: var(--color-white);
-}
 
 .filter-bar {
   position: sticky;
